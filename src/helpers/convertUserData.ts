@@ -1,5 +1,5 @@
 import { ConvertedUserDataI, UserDataI } from './../model/userTable/types'
-import convertDate from '@/helpers/convertDate'
+import convertDate from './convertDate'
 
 export default (users: UserDataI[]): ConvertedUserDataI[] => {
   return users.map((el: UserDataI): ConvertedUserDataI => {

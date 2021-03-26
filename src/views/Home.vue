@@ -17,7 +17,7 @@
 import { Component, Vue } from 'vue-property-decorator'
 
 // Components
-import Table from '@/components/Table.vue'
+import Table from '@/components/common/Table/Table.vue'
 
 // Data
 import users from '@/data/userData.json'
